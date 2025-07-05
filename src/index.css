@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Righteous&display=swap');
+
+.font-opensans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.font-righteous {
+  font-family: 'Righteous', cursive;
+}
+@import "tailwindcss";
