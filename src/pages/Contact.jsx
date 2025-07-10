@@ -1,5 +1,5 @@
 // ContactPage.jsx
-import { FaPhone, FaWhatsapp, FaEnvelope, FaMapMarkerAlt, FaInstagram, FaYoutube, FaFacebook } from 'react-icons/fa'
+import { FaPhone, FaWhatsapp, FaEnvelope, FaMapMarkerAlt, FaInstagram, FaYoutube, FaFacebook, FaTiktok } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 import { useEffect } from 'react'
 
@@ -127,15 +127,19 @@ export default function ContactPage() {
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-[#2B2D42] mb-4 font-righteous">Connect on Social Media</h3>
                 <div className="flex space-x-4">
-                  <a href="https://instagram.com/gloriakarenofficial" target="_blank" rel="noopener noreferrer" className="bg-[#FF6B6B]/10 hover:bg-[#FF6B6B]/20 p-3 rounded-full text-[#FF6B6B] transition-colors">
+                  <a href="https://youtube.com/@gloriakarenthebrand?si=_bTAIr_7rb5KnPAL" target="_blank" rel="noopener noreferrer" className="bg-[#FF6B6B]/10 hover:bg-[#FF6B6B]/20 p-3 rounded-full text-[#FF6B6B] transition-colors">
                     <FaInstagram className="text-xl" />
                   </a>
-                  <a href="https://youtube.com/GloriaKaren" target="_blank" rel="noopener noreferrer" className="bg-[#FF6B6B]/10 hover:bg-[#FF6B6B]/20 p-3 rounded-full text-[#FF6B6B] transition-colors">
-                    <FaYoutube className="text-xl" />
+                  <a href="https://www.tiktok.com/@gloriakarenthebrand?_t=ZM-8xuWYGhk5by&_r=1" target="_blank" rel="noopener noreferrer" className="bg-[#FF6B6B]/10 hover:bg-[#FF6B6B]/20 p-3 rounded-full text-[#FF6B6B] transition-colors">
+                    <FaTiktok className="text-xl" />
                   </a>
-                  <a href="https://facebook.com/GloriaKaren" target="_blank" rel="noopener noreferrer" className="bg-[#FF6B6B]/10 hover:bg-[#FF6B6B]/20 p-3 rounded-full text-[#FF6B6B] transition-colors">
+                  <a href="https://www.facebook.com/share/1HfXhpPDS9/" target="_blank" rel="noopener noreferrer" className="bg-[#FF6B6B]/10 hover:bg-[#FF6B6B]/20 p-3 rounded-full text-[#FF6B6B] transition-colors">
                     <FaFacebook className="text-xl" />
                   </a>
+                  <a href="https://youtube.com/@gloriakarenthebrand?si=_bTAIr_7rb5KnPAL" target="_blank" rel="noopener noreferrer" className="bg-[#FF6B6B]/10 hover:bg-[#FF6B6B]/20 p-3 rounded-full text-[#FF6B6B] transition-colors">
+                    <FaYoutube className="text-xl" />
+                  </a>
+
                 </div>
               </div>
             </motion.div>

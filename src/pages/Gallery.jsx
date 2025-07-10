@@ -88,7 +88,7 @@ export default function GalleryAndGetInvolved() {
       </section>
 
       {/* Get Involved Section */}
-      <section className="py-16 bg-[#FFD166]">
+      <section className="py-5 md:py-10 bg-[#FFD166]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
             <div className="md:flex">

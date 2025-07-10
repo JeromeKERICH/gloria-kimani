@@ -145,13 +145,13 @@ export default function FoundationPage() {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link
-              to="/donate"
+              to="/checkout"
               className="bg-white text-[#FF6B6B] hover:bg-gray-100 px-8 py-3 rounded-full font-bold transition-all duration-300 font-opensans"
             >
               Donate Now
             </Link>
             <Link
-              to="/volunteer"
+              to="/contact"
               className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-[#FF6B6B] px-8 py-3 rounded-full font-bold transition-all duration-300 font-opensans"
             >
               Volunteer

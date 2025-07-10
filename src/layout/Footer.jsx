@@ -56,18 +56,18 @@ export default function Footer() {
           <div className="md:col-span-1">
             <h3 className="text-xl font-bold mb-4 font-righteous text-[#FF6B6B]">Connect With Us</h3>
             <div className="flex space-x-4">
-              <a href="https://instagram.com/gloriakarenofficial" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#FFD166] transition-colors text-2xl">
-                <FaInstagram />
-              </a>
-              <a href="https://youtube.com/GloriaKaren" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#FFD166] transition-colors text-2xl">
-                <FaYoutube />
-              </a>
-              <a href="https://facebook.com/GloriaKaren" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#FFD166] transition-colors text-2xl">
-                <FaFacebook />
-              </a>
-              <a href="https://tiktok.com/@gloriakaren" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#FFD166] transition-colors text-2xl">
-                <FaTiktok />
-              </a>
+            <a href="https://youtube.com/@gloriakarenthebrand?si=_bTAIr_7rb5KnPAL" target="_blank" rel="noopener noreferrer" className="bg-[#FF6B6B]/10 hover:bg-[#FF6B6B]/20 p-3 rounded-full text-white transition-colors">
+                    <FaInstagram className="text-xl" />
+                  </a>
+                  <a href="https://www.tiktok.com/@gloriakarenthebrand?_t=ZM-8xuWYGhk5by&_r=1" target="_blank" rel="noopener noreferrer" className="bg-[#FF6B6B]/10 hover:bg-[#FF6B6B]/20 p-3 rounded-full text-white transition-colors">
+                    <FaTiktok className="text-xl" />
+                  </a>
+                  <a href="https://www.facebook.com/share/1HfXhpPDS9/" target="_blank" rel="noopener noreferrer" className="bg-[#FF6B6B]/10 hover:bg-[#FF6B6B]/20 p-3 rounded-full text-white transition-colors">
+                    <FaFacebook className="text-xl" />
+                  </a>
+                  <a href="https://youtube.com/@gloriakarenthebrand?si=_bTAIr_7rb5KnPAL" target="_blank" rel="noopener noreferrer" className="bg-[#FF6B6B]/10 hover:bg-[#FF6B6B]/20 p-3 rounded-full text-white transition-colors">
+                    <FaYoutube className="text-xl" />
+                  </a>
             </div>
           </div>
         </div>

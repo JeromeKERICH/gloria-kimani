@@ -2,6 +2,7 @@
 import { FaShieldAlt, FaQuoteLeft, FaLock, FaHandshake,  FaUserLock } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function DonationPage() {
     useEffect(() => {
@@ -42,12 +43,12 @@ export default function DonationPage() {
                 Help Gloria pursue her dreams in pageants, performances, and creative projects.
               </p>
               <div className="mb-8">
-                <a
-                  href="/donate/gloria"
+                <Link
+                  to="/checkout"
                   className="w-full bg-[#FF6B6B] hover:bg-[#FF5252] text-white py-3 px-6 rounded-lg font-bold transition-colors font-opensans block text-center"
                 >
-                  Donate Securely
-                </a>
+                  Donate Now
+                </Link>
               </div>
             </div>
 
@@ -63,12 +64,12 @@ export default function DonationPage() {
                 Contribute to community outreach programs that make a lasting difference.
               </p>
               <div className="mb-8">
-                <a
-                  href="/donate/foundation"
+                <Link 
+                  to="/checkout"
                   className="w-full bg-[#2B2D42] hover:bg-[#1A1C2E] text-white py-3 px-6 rounded-lg font-bold transition-colors font-opensans block text-center"
                 >
-                  Donate Securely
-                </a>
+                  Donate nOW
+                </Link>
               </div>
             </div>
           </motion.div>
