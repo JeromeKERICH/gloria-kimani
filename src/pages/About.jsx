@@ -98,7 +98,7 @@ export default function AboutPage() {
               </div>
             </div>
             
-            <div className="text-start md:text-left">
+            <div className="text-start md:text-left ">
               <p className="text-lg text-gray-700 font-opensans">
                 Gloria's journey began at just 6 years old, singing and modeling her way into the hearts of audiences. 
                 Her first pageant was Little Mr & Miss Murang'a in 2020, where her natural charisma and stage presence 
@@ -168,12 +168,12 @@ export default function AboutPage() {
       {/* Vision + Dreams Section */}
       <section className="py-16 bg-gradient-to-r from-[#FF6B6B] to-[#FF8E53] text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <FaHeart className="w-12 h-12 mx-auto mb-6" />
+          
           <h2 className="text-3xl font-bold mb-6 font-righteous">
             Vision & Dreams
           </h2>
           
-          <p className="text-xl mb-8 font-opensans">
+          <p className="text-xl mb-8 font-opensans text-start md:text-center">
             Gloria dreams of continually growing in her talents, helping other kids through her foundation, 
             and representing Kenya on global platforms, like the upcoming Little Miss Universe 2025 in India. 
             She envisions using her platform to inspire African children to pursue their dreams fearlessly, 

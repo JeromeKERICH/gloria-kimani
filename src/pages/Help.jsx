@@ -10,7 +10,7 @@ export default function OtherWaysToHelp() {
     }, [])
   const waysToHelp = [
     {
-      icon: <FaHandsHelping className="text-4xl" />,
+     
       title: "Volunteer",
       description: "Offer your time and skills to support Gloria's events and foundation activities",
       action: "Join our volunteer team",
@@ -20,7 +20,7 @@ export default function OtherWaysToHelp() {
     },
     
     {
-      icon: <FaShoppingCart className="text-4xl" />,
+      
       title: "Purchase Merchandise",
       description: "Support through buying Gloria's branded merchandise (coming soon)",
       action: "Join Waitlist",
@@ -29,7 +29,7 @@ export default function OtherWaysToHelp() {
       alt: "Branded merchandise on display"
     },
     {
-      icon: <FaBullhorn className="text-4xl" />,
+      
       title: "Sponsor an Event",
       description: "Businesses can sponsor Gloria's performances or foundation initiatives",
       action: "Learn about sponsorship",

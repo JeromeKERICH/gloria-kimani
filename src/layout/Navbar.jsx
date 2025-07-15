@@ -32,7 +32,7 @@ export default function Navbar() {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-6">
+          <div className="hidden md:flex items-center space-x-3">
             <Link 
               to="/" 
               className="text-gray-800 hover:text-[#FF6B6B] px-3 py-2 font-medium transition-colors font-opensans"
@@ -52,9 +52,16 @@ export default function Navbar() {
               Foundation
             </Link>
             <Link 
+              to="/shop"
+              className="text-gray-800 hover:text-[#FF6B6B] px-3 py-2 font-medium transition-colors font-opensans"
+            >
+              Merchandise
+            </Link>
+            <Link 
               to="/donate" 
               className="text-gray-800 hover:text-[#FF6B6B] px-3 py-2 font-medium transition-colors font-opensans"
             >
+
               Donate
             </Link>
             <div className="relative">
@@ -119,6 +126,14 @@ export default function Navbar() {
               className="block px-3 py-2 text-gray-800 hover:text-[#FF6B6B] font-medium font-opensans"
             >
               Foundation
+            </Link>
+
+            <Link
+              to="/shop"
+              onClick={() => setIsOpen(false)}
+              className="block px-3 py-2 text-gray-800 hover:text-[#FF6B6B] font-medium font-opensans"
+            >
+              Merchandise
             </Link>
             <Link
               to="/donate"

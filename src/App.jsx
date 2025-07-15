@@ -10,6 +10,10 @@ import ContactPage from "./pages/Contact";
 import OtherWaysToHelp from "./pages/Help";
 import DonationCheckout from "./pages/DonationCheckout";
 import FloatingWhatsApp from "./components/FloatingWA";
+import ThankYouPage from "./pages/Appreciation";
+import SponsorshipPage from "./pages/Sponsorship";
+import VolunteerPage from "./pages/Volunteer";
+import MerchandisePage from "./pages/Shop";
 
 
 
@@ -29,6 +33,10 @@ function App() {
             <Route path="/contact" element={<ContactPage/>}/>   
             <Route path="/support" element={<OtherWaysToHelp/>}/> 
             <Route path="/checkout" element={<DonationCheckout/>}/>
+            <Route path="/thank-you" element={<ThankYouPage/>}/>
+            <Route path="/sponsorship" element={<SponsorshipPage/>}/>
+            <Route path="/volunteer" element={<VolunteerPage/>}/>
+            <Route path="/shop" element={<MerchandisePage/>}/>
           </Routes>
         </main>
         <Footer/>

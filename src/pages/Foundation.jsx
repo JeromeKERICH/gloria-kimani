@@ -1,6 +1,6 @@
 // FoundationPage.jsx
 import { useEffect } from 'react'
-import { FaChild, FaBookOpen, FaUserAlt, FaUtensils, FaTree, FaHeart } from 'react-icons/fa'
+
 import { MdDateRange } from 'react-icons/md'
 import { Link } from 'react-router-dom'
 
@@ -13,9 +13,9 @@ export default function FoundationPage() {
       {/* Hero Section */}
       <section className="relative bg-[#2B2D42] text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-flex items-center bg-[#FF6B6B]/20 px-4 py-2 rounded-full mb-6">
+          <div className="inline-flex items-center bg-[#FF6B6B]/20 px-4 py-2 rounded-full mb-6 mt-10">
             <MdDateRange className="mr-2" />
-            <span className="font-opensans">Launched December 23, 2023</span>
+            <span className="font-opensans ">Launched December 23, 2023</span>
           </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 font-righteous">
             Gloriasarah <span className="text-[#FFD166]">Foundation</span>
@@ -55,9 +55,7 @@ export default function FoundationPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Mission Card 1 */}
             <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow border-t-4 border-[#FF6B6B]">
-              <div className="text-[#FF6B6B] text-4xl mb-4">
-                <FaChild />
-              </div>
+              
               <h3 className="text-xl font-bold text-[#2B2D42] mb-3 font-righteous">
                 Child & Family Support
               </h3>
@@ -68,9 +66,7 @@ export default function FoundationPage() {
 
             {/* Mission Card 2 */}
             <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow border-t-4 border-[#FFD166]">
-              <div className="text-[#FFD166] text-4xl mb-4">
-                <FaBookOpen />
-              </div>
+              
               <h3 className="text-xl font-bold text-[#2B2D42] mb-3 font-righteous">
                 Education Advocacy
               </h3>
@@ -81,9 +77,7 @@ export default function FoundationPage() {
 
             {/* Mission Card 3 */}
             <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow border-t-4 border-[#2B2D42]">
-              <div className="text-[#2B2D42] text-4xl mb-4">
-                <FaUserAlt />
-              </div>
+              
               <h3 className="text-xl font-bold text-[#2B2D42] mb-3 font-righteous">
                 Elderly Care Initiatives
               </h3>
@@ -94,9 +88,7 @@ export default function FoundationPage() {
 
             {/* Mission Card 4 */}
             <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow border-t-4 border-[#FF6B6B]">
-              <div className="text-[#FF6B6B] text-4xl mb-4">
-                <FaUtensils />
-              </div>
+              
               <h3 className="text-xl font-bold text-[#2B2D42] mb-3 font-righteous">
                 Nutrition Programs
               </h3>
@@ -107,9 +99,7 @@ export default function FoundationPage() {
 
             {/* Mission Card 5 */}
             <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow border-t-4 border-[#FFD166]">
-              <div className="text-[#FFD166] text-4xl mb-4">
-                <FaTree />
-              </div>
+              
               <h3 className="text-xl font-bold text-[#2B2D42] mb-3 font-righteous">
                 Environmental Conservation
               </h3>
@@ -120,9 +110,7 @@ export default function FoundationPage() {
 
             {/* Mission Card 6 */}
             <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow border-t-4 border-[#2B2D42]">
-              <div className="text-[#2B2D42] text-4xl mb-4">
-                <FaHeart />
-              </div>
+              
               <h3 className="text-xl font-bold text-[#2B2D42] mb-3 font-righteous">
                 Holistic Community Development
               </h3>
@@ -151,7 +139,7 @@ export default function FoundationPage() {
               Donate Now
             </Link>
             <Link
-              to="/contact"
+              to="/volunteer"
               className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-[#FF6B6B] px-8 py-3 rounded-full font-bold transition-all duration-300 font-opensans"
             >
               Volunteer
