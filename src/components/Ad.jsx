@@ -1,12 +1,12 @@
 // src/components/FloatingAd.jsx
 import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useNavigate } from 'react-router-dom';
+
 
 export default function FloatingAd() {
   const [visible, setVisible] = useState(true);
   const timerRef = useRef(null);
-  const navigate = useNavigate();
+
 
   useEffect(() => {
     // auto-hide after 3 seconds if no click
@@ -19,11 +19,7 @@ export default function FloatingAd() {
     };
   }, []);
 
-  const handleSupport = () => {
-    clearTimeout(timerRef.current);
-    setVisible(false);
-    navigate('/contest-details');
-  };
+ 
 
   return (
     <AnimatePresence>
