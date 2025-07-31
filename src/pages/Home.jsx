@@ -4,6 +4,7 @@ import AboutPreview from '../components/About'
 import Achievements from '../components/Highlight'
 import SupportGloria from '../components/DonationCTA'
 import FoundationLink from '../components/Foundation'
+import FloatingAd from '../components/Ad'
 
 const Home = () => {
     useEffect(() => {
@@ -11,6 +12,7 @@ const Home = () => {
     }, []);
   return (
     <div>
+       <FloatingAd />
       <Hero/>
       <AboutPreview/>
       <Achievements/>

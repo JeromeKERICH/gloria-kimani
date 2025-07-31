@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default function SupportGloria() {
   return (
-    <section className="py-16 bg-gradient-to-r from-[#FF6B6B] to-[#FF8E53]">
+    <section className="py-16 bg-[#2B2D42]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

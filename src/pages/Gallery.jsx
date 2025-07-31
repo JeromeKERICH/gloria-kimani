@@ -1,12 +1,12 @@
 // GalleryAndGetInvolved.jsx
-import { FaHandsHelping, FaTree, FaSchool, FaUtensils, FaUserFriends, FaWindowRestore } from 'react-icons/fa'
+import { FaHandsHelping, FaTree, FaSchool, FaUtensils, FaUserFriends, FaPlay } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 import { useEffect } from 'react'
 
 const galleryItems = [
   {
     category: 'Volunteering Events',
-    icon: <FaHandsHelping className="text-3xl" />,
+    
     images: [
       { id:1, src: "/assets/34.jpg", alt: 'Volunteers packing supplies' },
       { id: 2, src: "/assets/2.jpg", alt: 'Community cleanup day' },
@@ -17,7 +17,7 @@ const galleryItems = [
   
   {
     category: 'Feeding Programs',
-    icon: <FaUtensils className="text-3xl" />,
+    
     images: [
       { id: 10, src: "/assets/25.jpg", alt: 'Community kitchen serving meals' },
       { id: 11, src: "/assets/3.jpg", alt: 'Food package distribution' },
@@ -31,6 +31,7 @@ export default function GalleryAndGetInvolved() {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
+    
   return (
     <>
       {/* Photo Gallery Section */}
@@ -87,8 +88,87 @@ export default function GalleryAndGetInvolved() {
         </div>
       </section>
 
+      {/* YouTube Promotion Section */}
+      <section className="py-5 md;py-10 bg-gradient-to-r from-[#FF6B6B]/10 to-[#FFD166]/10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col lg:flex-row items-center gap-12">
+            {/* Video Embed */}
+            <motion.div 
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="lg:w-1/2 w-full"
+            >
+              <div className="relative aspect-w-16 aspect-h-9 rounded-xl overflow-hidden shadow-2xl">
+              <a href="https://youtu.be/PUArn0XUdzc?si=cWDvOV_zSOkEiK5j" className="block w-full h-full">
+                    <img 
+                      src="/assets/kua.jpg" 
+                      alt="Banner Description" 
+                      className="w-full h-full object-cover pointer-cursor-pointer hover:scale-105 transition-transform duration-300 rounded-lg shadow-lg"
+                    />
+                  </a>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent"></div>
+              </div>
+            </motion.div>
+            
+            {/* Promotion Content */}
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2 }}
+              className="lg:w-1/2 w-full"
+            >
+              <h2 className="text-3xl md:text-4xl font-bold text-[#2B2D42] mb-6 font-righteous">
+                Discover Gloria's <span className="text-[#FF6B6B]">Story</span>
+              </h2>
+              <p className="text-lg text-gray-700 mb-6 font-opensans">
+                Watch Gloria's inspiring journey from a young talent to a community leader making real change across Africa.
+              </p>
+              
+              <div className="space-y-4 mb-8">
+                <div className="flex items-start">
+                  
+                  <div>
+                    <h4 className="font-bold text-[#2B2D42] font-righteous">Latest Performance</h4>
+                    <p className="text-gray-600 font-opensans">Watch GloriaKaren new song</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  
+                  <div>
+                    <h4 className="font-bold text-[#2B2D42] font-righteous">Foundation Work</h4>
+                    <p className="text-gray-600 font-opensans">Witness the impact of Gloriasarah Foundation</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="flex flex-row gap-2 text-sm">
+              <a
+                  href="https://youtu.be/PUArn0XUdzc?si=cWDvOV_zSOkEiK5j"
+                  className="bg-transparent border-2 border-[#2B2D42] text-[#2B2D42] hover:bg-[#2B2D42] hover:text-white px-6 py-3 rounded-full font-bold transition-colors font-opensans flex items-center"
+                >
+                  Watch on YouTube
+                </a>
+                <a
+                  href="https://www.youtube.com/@Gloriakarenthebrand"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-[#FF6B6B] hover:bg-[#FF5252] text-white px-6 py-3 rounded-full font-bold transition-colors font-opensans flex items-center"
+                >
+                  Subscribe Now
+                </a>
+                
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
       {/* Get Involved Section */}
-      <section className="py-5 md:py-10 bg-[#FFD166]">
+      {/* Get Involved Section */}
+      <section className="py-5 md:py-10 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
             <div className="md:flex">
@@ -102,14 +182,14 @@ export default function GalleryAndGetInvolved() {
                   </p>
                   <div className="space-y-4">
                     <div className="flex items-start">
-                      <FaUserFriends className="text-[#FFD166] text-xl mt-1 mr-3" />
+                     
                       <div>
                         <h4 className="font-bold font-righteous">Volunteer Opportunities</h4>
                         <p className="text-gray-300 font-opensans">Join our monthly activities or special projects</p>
                       </div>
                     </div>
                     <div className="flex items-start">
-                      <FaHandsHelping className="text-[#FFD166] text-xl mt-1 mr-3" />
+                      
                       <div>
                         <h4 className="font-bold font-righteous">Corporate Partnerships</h4>
                         <p className="text-gray-300 font-opensans">Align your brand with our social mission</p>

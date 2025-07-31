@@ -41,7 +41,7 @@ export default function AboutPreview() {
             
             <p className="text-lg text-gray-700 mb-8 font-opensans leading-relaxed">
               At just 10 years old, Gloria Karen Wairimu Kimani is already a model, dancer, 
-              actress, singer, content creator, and award-winning kid influencer — showing 
+              actress, singer, content creator, and award-winning kid influencer, showing 
               that passion has no age limit.
             </p>
 

@@ -13,17 +13,24 @@ import FloatingWhatsApp from "./components/FloatingWA";
 import ThankYouPage from "./pages/Appreciation";
 import SponsorshipPage from "./pages/Sponsorship";
 import VolunteerPage from "./pages/Volunteer";
-import MerchandisePage from "./pages/Shop";
+import CheckoutPage from "./pages/Cart";
+import ShopPage from "./pages/Shop";
+
+
+
+
+
 
 
 
 function App() {
   return (
+   
     <Router>
       <div className="flex flex-col min-h-screen">
         <FloatingWhatsApp/>
         <Navbar/> 
-        <main className="flex-grow">
+        <main className="flex-grow ">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<AboutPage/>}/>   
@@ -36,12 +43,28 @@ function App() {
             <Route path="/thank-you" element={<ThankYouPage/>}/>
             <Route path="/sponsorship" element={<SponsorshipPage/>}/>
             <Route path="/volunteer" element={<VolunteerPage/>}/>
-            <Route path="/shop" element={<MerchandisePage/>}/>
+            <Route path="/shop" element={<ShopPage />} />
+            <Route path="/checkout/:id" element={<CheckoutPage />} />
+            
+            
+          
+            
+ 
+          
+
+      
+        
+      
+  
+           
+            
           </Routes>
+          
         </main>
         <Footer/>
       </div>
     </Router>
+    
   );
 }
 

@@ -86,7 +86,7 @@ export default function AboutPage() {
 
       {/* How It Started Section */}
       <section className="py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-[#2B2D42] mb-8 text-center font-righteous">
             How It Started
           </h2>
@@ -105,6 +105,9 @@ export default function AboutPage() {
                 were immediately evident. Despite her young age, Gloria demonstrated a maturity beyond her years, 
                 captivating judges and audiences alike. This initial success fueled her passion for performance, 
                 and she's never looked back since.
+                <br/>
+                Gloria Karen is a Grade 6 pupil at Leadra School, located in Murang’a County. She is the daughter of Antony Kimani Murathi and Juliah Wanjiru Kimani. Gloria comes from a loving family and has one younger sister, Sarah Wanjiru Kimani, who is 5 years old and currently enrolled in PP2 at Barnistar School. With a supportive family and a strong educational foundation, Gloria continues to thrive both academically and socially.
+
               </p>
             </div>
           </div>
