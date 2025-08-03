@@ -1,6 +1,5 @@
 // FoundationPage.jsx
 import { useEffect } from 'react'
-
 import { MdDateRange } from 'react-icons/md'
 import { Link } from 'react-router-dom'
 
@@ -12,17 +11,26 @@ export default function FoundationPage() {
     <div className="bg-white">
       {/* Hero Section */}
       <section className="relative bg-[#2B2D42] text-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-flex items-center bg-[#FF6B6B]/20 px-4 py-2 rounded-full mb-6 mt-10">
-            <MdDateRange className="mr-2" />
-            <span className="font-opensans ">Launched December 23, 2023</span>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center">
+          <div className="md:w-1/2 text-center md:text-left">
+            <div className="inline-flex items-center bg-[#FF6B6B]/20 px-4 py-2 rounded-full mb-6 mt-10">
+              <MdDateRange className="mr-2" />
+              <span className="font-opensans ">Launched December 23, 2023</span>
+            </div>
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 font-righteous">
+              Gloriasarah <span className="text-[#FFD166]">Foundation</span>
+            </h1>
+            <p className="text-xl max-w-3xl mx-auto md:mx-0 font-opensans">
+              A nonprofit initiative by Gloria Karen to create lasting change in communities
+            </p>
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 font-righteous">
-            Gloriasarah <span className="text-[#FFD166]">Foundation</span>
-          </h1>
-          <p className="text-xl max-w-3xl mx-auto font-opensans">
-            A nonprofit initiative by Gloria Karen to create lasting change in communities
-          </p>
+          <div className="md:w-1/2 mt-10 md:mt-0 flex justify-center">
+            <img 
+              src="/assets/logoG.jpg" 
+              alt="Foundation Logo" 
+              className="w-64 h-64 object-contain rounded-full border-4 border-[#FFD166]"
+            />
+          </div>
         </div>
       </section>
 
@@ -54,8 +62,14 @@ export default function FoundationPage() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Mission Card 1 */}
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow border-t-4 border-[#FF6B6B]">
-              
+            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow" >
+              <div className="w-full h-48 mb-4 overflow-hidden rounded-lg">
+                <img 
+                  src="/assets/2.jpg" 
+                  alt="Child & Family Support" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <h3 className="text-xl font-bold text-[#2B2D42] mb-3 font-righteous">
                 Child & Family Support
               </h3>
@@ -65,8 +79,14 @@ export default function FoundationPage() {
             </div>
 
             {/* Mission Card 2 */}
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow border-t-4 border-[#FFD166]">
-              
+            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow ">
+              <div className="w-full h-48 mb-4 overflow-hidden rounded-lg">
+                <img 
+                  src="/assets/F1.jpg" 
+                  alt="Education Advocacy" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <h3 className="text-xl font-bold text-[#2B2D42] mb-3 font-righteous">
                 Education Advocacy
               </h3>
@@ -77,7 +97,13 @@ export default function FoundationPage() {
 
             {/* Mission Card 3 */}
             <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow border-t-4 border-[#2B2D42]">
-              
+              <div className="w-full h-48 mb-4 overflow-hidden rounded-lg">
+                <img 
+                  src="/assets/F2.jpg" 
+                  alt="Elderly Care Initiatives" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <h3 className="text-xl font-bold text-[#2B2D42] mb-3 font-righteous">
                 Elderly Care Initiatives
               </h3>
@@ -87,8 +113,14 @@ export default function FoundationPage() {
             </div>
 
             {/* Mission Card 4 */}
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow border-t-4 border-[#FF6B6B]">
-              
+            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow ">
+              <div className="w-full h-48 mb-4 overflow-hidden rounded-lg">
+                <img 
+                  src="/assets/4.jpg" 
+                  alt="Nutrition Programs" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <h3 className="text-xl font-bold text-[#2B2D42] mb-3 font-righteous">
                 Nutrition Programs
               </h3>
@@ -99,7 +131,13 @@ export default function FoundationPage() {
 
             {/* Mission Card 5 */}
             <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow border-t-4 border-[#FFD166]">
-              
+              <div className="w-full h-48 mb-4 overflow-hidden rounded-lg">
+                <img 
+                  src="/assets/f4.jpg" 
+                  alt="Environmental Conservation" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <h3 className="text-xl font-bold text-[#2B2D42] mb-3 font-righteous">
                 Environmental Conservation
               </h3>
@@ -110,7 +148,13 @@ export default function FoundationPage() {
 
             {/* Mission Card 6 */}
             <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow border-t-4 border-[#2B2D42]">
-              
+              <div className="w-full h-48 mb-4 overflow-hidden rounded-lg">
+                <img 
+                  src="/assets/f3.jpg" 
+                  alt="Holistic Community Development" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <h3 className="text-xl font-bold text-[#2B2D42] mb-3 font-righteous">
                 Holistic Community Development
               </h3>
@@ -123,7 +167,7 @@ export default function FoundationPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-[#FF6B6B] text-white">
+      <section className="py-5 bg-[#FF6B6B] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6 font-righteous">
             Join Us in Making a Difference

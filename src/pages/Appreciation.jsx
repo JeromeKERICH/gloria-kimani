@@ -23,7 +23,7 @@ export default function ThankYouPage() {
           >
             
           </motion.div>
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 font-righteous">
+          <h1 className="text-3xl md:text-6xl font-bold mb-6 font-righteous">
             Thank You for <span className="text-[#FFD166]">Your Support!</span>
           </h1>
           <p className="text-xl max-w-3xl mx-auto font-opensans">
@@ -41,7 +41,7 @@ export default function ThankYouPage() {
             viewport={{ once: true }}
             className="bg-white rounded-xl shadow-lg p-8 md:p-12 text-center"
           >
-            <h2 className="text-3xl font-bold text-[#2B2D42] mb-6 font-righteous">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#2B2D42] mb-6 font-righteous">
               You're Making a Difference
             </h2>
             <div className="prose max-w-none text-gray-700 mb-8 font-opensans text-lg">
@@ -65,8 +65,8 @@ export default function ThankYouPage() {
       {/* Next Steps Section */}
       <section className="py-16 bg-[#2B2D42] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 font-righteous">
-            Continue <span className="text-[#FFD166]">Your Impact</span>
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-12 font-righteous">
+            Continue Your Impact
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -75,9 +75,7 @@ export default function ThankYouPage() {
               whileHover={{ y: -5 }}
               className="bg-white/10 rounded-xl p-6 backdrop-blur-sm"
             >
-              <div className="text-[#FF6B6B] text-4xl mb-4">
-                <FaHandsHelping />
-              </div>
+              
               <h3 className="text-xl font-bold mb-3 font-righteous">Monthly Giving</h3>
               <p className="text-gray-300 mb-4 font-opensans">
                 Become a sustaining donor and provide reliable support for Gloria's ongoing projects.
@@ -95,9 +93,7 @@ export default function ThankYouPage() {
               whileHover={{ y: -5 }}
               className="bg-white/10 rounded-xl p-6 backdrop-blur-sm"
             >
-              <div className="text-[#FFD166] text-4xl mb-4">
-                <FaShareAlt />
-              </div>
+              
               <h3 className="text-xl font-bold mb-3 font-righteous">Spread the Word</h3>
               <p className="text-gray-300 mb-4 font-opensans">
                 Share Gloria's mission with your friends and help grow our community of supporters.
@@ -119,9 +115,7 @@ export default function ThankYouPage() {
               whileHover={{ y: -5 }}
               className="bg-white/10 rounded-xl p-6 backdrop-blur-sm"
             >
-              <div className="text-white text-4xl mb-4">
-                <FaHeart />
-              </div>
+              
               <h3 className="text-xl font-bold mb-3 font-righteous">Other Ways to Help</h3>
               <p className="text-gray-300 mb-4 font-opensans">
                 Explore volunteer opportunities, events, and more ways to get involved.

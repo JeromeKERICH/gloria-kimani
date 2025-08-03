@@ -41,7 +41,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start">
                 
-                <span className="text-gray-300">+254 712 345 678</span>
+                <span className="text-gray-300">+254 21 651 705</span>
               </li>
               <li className="flex items-start">
                 
